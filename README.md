@@ -3,3 +3,4 @@ This repo is my journey coding along Anthony with his content in [AnthonyWritesC
 
 # Useful packages
 - `mypy` -> [link](https://pypi.org/project/mypy/)
+- _anthonywritescode_, `explains` [Github repo](https://github.com/anthonywritescode/explains).
