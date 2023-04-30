@@ -11,7 +11,6 @@ This repo is my journey coding along Anthony with his content in [AnthonyWritesC
 ## Cache
 1. **@functools.lru_cache decorator:** You can cache the results of a function and play with the cache size according to the needs. Go to `explains/54_functools_lru_cache.py` module.
 
-<br>
 
 # Utilities
 
@@ -21,3 +20,8 @@ This repo is my journey coding along Anthony with his content in [AnthonyWritesC
 
 ## Useful commands
 - `hash`: see latest commands with their location
+- `!$`: will give you the last argument to the previous command.
+    + `set -o history`
+    + `set -o histexpand`
+    + `date`
+    + `echo !$ # prints date`
