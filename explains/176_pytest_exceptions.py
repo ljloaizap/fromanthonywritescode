@@ -1,4 +1,6 @@
-"""YT: https://www.youtube.com/watch?v=6nRxZyQwwlE&ab_channel=anthonywritescode"""
+"""YT: https://www.youtube.com/watch?v=6nRxZyQwwlE&ab_channel=anthonywritescode
+How to test exceptions in pytest!
+"""
 
 from typing import Tuple
 import pytest

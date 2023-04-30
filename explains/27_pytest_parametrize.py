@@ -1,4 +1,7 @@
-"""YT: https://www.youtube.com/watch?v=aQH7hyJn-No&ab_channel=anthonywritescode"""
+"""YT: https://www.youtube.com/watch?v=aQH7hyJn-No&ab_channel=anthonywritescode
+pytest's parametrize which allows you to generate many tests from one test skeleton!
+Often referred to as table tests in other testing frameworks.
+"""
 
 from typing import NamedTuple
 import pytest
