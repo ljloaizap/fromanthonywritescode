@@ -1,5 +1,5 @@
 # From AnthonyWritesCode
-This repo is my journey coding along Anthony with his content in [AnthonyWritesCode Youtube Channel](https://www.youtube.com/@anthonywritescode)
+This repo is my journey coding along with Anthony using his content available in [AnthonyWritesCode Youtube Channel](https://www.youtube.com/@anthonywritescode)
 
 # Explains
 
