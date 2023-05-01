@@ -1,5 +1,5 @@
 """YT: https://youtu.be/dN-pVt7i4Us
-How to test output using pytest -- using the `capsys` and `capfd` fixtures (and why they're different)
+How to test output using pytest with `capsys` and `capfd` fixtures (and why they're different)
 """
 import subprocess
 import sys
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 def test_hello_capsys(capsys):
     """PH"""
     hello('lili')
-    stdout, stderr = capsys.readouterr()
+    stdout, _ = capsys.readouterr()
     assert stdout == 'hello hello lili\n'
 
 
