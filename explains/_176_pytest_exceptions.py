@@ -10,7 +10,7 @@ class MyVersionError(ValueError):
     """Custom error to test exceptions with pytest"""
 
 
-def parse_version(input_s: str) -> Tuple[int, int]:
+def parse_version(input_s: str) -> Tuple[int, ...]:  # Tuple[int, int]:
     """PH"""
     ret = tuple(int(part) for part in input_s.split('.'))
     if len(ret) != 2:

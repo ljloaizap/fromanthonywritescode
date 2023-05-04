@@ -17,7 +17,7 @@ def hello_subprocess(name: str) -> None:
     subprocess.check_call(('echo', 'hello', 'hello', name))
 
 
-def main() -> int:
+def main():
     """PH"""
     # hello(sys.argv[1])
     hello_subprocess(sys.argv[1])
