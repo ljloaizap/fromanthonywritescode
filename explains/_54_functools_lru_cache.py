@@ -1,4 +1,4 @@
-""" YT: https://www.youtube.com/watch?v=K0Q5twtYxWY&ab_channel=anthonywritescode
+""" YT: https://youtu.be/K0Q5twtYxWY
 Explanation of functools.lru_cache as well as a few ways that you might use it in your programs!
 
 Note: in case you need to run the function again to test it it's working properly,
