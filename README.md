@@ -36,3 +36,11 @@ This repo is my journey coding along with Anthony using his content available in
     + `echo !$ # prints date`
 - `$?`: returns execution status of last execute command. Any non-zero value signifies failure.
 - `{command} | less`, and later `/` to search for a string, e.g., `python --help | less` and then, `/ {search phrase}`
+
+# :evergreen_tree: Dev jungle
+1. Install requirements
+    > `pipenv install -r requirements.txt`
+1. Run tests suite
+    > `pytest`
+1. Run type checker with _mypy_ package
+    > `mypy all_code_sucks && mypy -p explains && mypy -p tests`
