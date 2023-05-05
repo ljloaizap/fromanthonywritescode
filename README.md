@@ -12,7 +12,7 @@ This repo is my journey coding along with Anthony using his content available in
 1. **Testing cli**: testing CLI output with pytest. Go to `explains/_1_pytest_cli.py` module.
 
 ## Cache
-1. **@functools.lru_cache decorator:** You can cache the results of a function and play with the cache size according to the needs. Go to `explains/54_functools_lru_cache.py` module.
+1. **@functools.lru_cache decorator:** You can cache the results of a function and play with the cache size according to the needs. Go to `explains/_54_functools_lru_cache.py` module.
 
 
 # Utilities
@@ -44,3 +44,10 @@ This repo is my journey coding along with Anthony using his content available in
     > `pytest`
 1. Run type checker with _mypy_ package
     > `mypy all_code_sucks && mypy -p explains && mypy -p tests`
+1. **Tests coverage** 🧪
+    > 
+    ```
+    coverage run -m pytest
+    coverage report
+    coverage html
+    ```
